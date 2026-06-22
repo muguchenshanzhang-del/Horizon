@@ -161,6 +161,21 @@
     "default_group_limit": null
   },
   "webhook": {
-    "enabled": false
+    "enabled": true,
+    "url_env": "HORIZON_WEBHOOK_URL",
+    "delivery": "summary",
+    "overview_position": "first",
+    "platform": "generic",
+    "layout": "markdown",
+    "fallback_layout": "markdown",
+    "languages": [
+      "zh"
+    ],
+    "request_body": {
+      "chat_id": 8110364754,
+      "text": "#{summary}\n\n#{message_title}",
+      "parse_mode": "Markdown"
+    },
+    "headers": ""
   }
 }

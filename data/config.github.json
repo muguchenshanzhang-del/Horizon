@@ -49,12 +49,6 @@
         "category": "ai"
       },
       {
-        "name": "The Verge - AI",
-        "url": "https://www.theverge.com/ai-artificial-intelligence/rss/index.xml",
-        "enabled": true,
-        "category": "ai"
-      },
-      {
         "name": "TechCrunch - AI",
         "url": "https://techcrunch.com/category/artificial-intelligence/feed/",
         "enabled": true,
@@ -73,26 +67,20 @@
         "category": "ai"
       },
       {
-        "name": "Google AI Blog",
-        "url": "https://blog.research.google/feed.xml",
+        "name": "MIT Tech Review - AI",
+        "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed/",
         "enabled": true,
         "category": "ai"
       },
       {
-        "name": "Meta AI Blog",
-        "url": "https://ai.meta.com/blog/feed/",
+        "name": "Nature - AI",
+        "url": "https://www.nature.com/subjects/artificial-intelligence.rss",
         "enabled": true,
-        "category": "ai"
+        "category": "science"
       },
       {
-        "name": "Anthropic Blog",
-        "url": "https://www.anthropic.com/feed.xml",
-        "enabled": true,
-        "category": "ai"
-      },
-      {
-        "name": "OpenAI Blog",
-        "url": "https://openai.com/blog/feed.xml",
+        "name": "VentureBeat - AI",
+        "url": "https://feeds.feedburner.com/venturebeat/SZYF",
         "enabled": true,
         "category": "ai"
       }
@@ -177,5 +165,17 @@
       "parse_mode": "Markdown"
     },
     "headers": ""
+  },
+  "output": {
+    "generate_bilingual": true,
+    "languages": [
+      "zh",
+      "en"
+    ],
+    "news_per_language": 15,
+    "min_score": 5.0,
+    "enable_enrichment": true,
+    "enable_community_comments": true,
+    "enable_background_search": true
   }
 }
